@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "callback": "node src/callback/challenge.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/joffur/cursoAsincronismoJavascript/issues"
   },
-  "homepage": "https://github.com/joffur/cursoAsincronismoJavascript#readme"
+  "homepage": "https://github.com/joffur/cursoAsincronismoJavascript#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }

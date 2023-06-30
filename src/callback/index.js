@@ -14,8 +14,8 @@ setTimeout(() => {
 }, 5000);
 console.log('After timeout');
 
-function greeting(name, age) {
+function greeting({name, age}) {
   console.log(`Hola ${name}, your age is ${age}!`);
 }
 
-setTimeout(greeting, 2000, 'José', 34);
+setTimeout(greeting, 2000, {age: 34, name: 'José'});
